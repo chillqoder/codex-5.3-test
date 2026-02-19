@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "source": "demo",
+    "generatedAt": "2026-02-19"
+  },
+  "items": [
+    {
+      "id": "A-1",
+      "name": "Primary Item 1",
+      "image": "https://picsum.photos/id/1035/300/200.jpg"
+    },
+    {
+      "id": "A-2",
+      "name": "Primary Item 2",
+      "image": "https://example.com/broken-image.jpeg"
+    }
+  ],
+  "archived": [
+    {
+      "id": "B-1",
+      "title": "Archived Item",
+      "imageUrl": "https://picsum.photos/id/1043/300/200.jpg"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "images": {
+      "primary": "https://picsum.photos/id/1015/300/200.jpg",
+      "backup": "https://picsum.photos/300"
+    },
+    "metadata": {
+      "gallery": [
+        "https://example.com/missing-image.png",
+        "https://picsum.photos/id/1019/300/200.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Product B",
+    "photo": "https://picsum.photos/id/1015/300/200.jpg",
+    "details": {
+      "notes": "Duplicate URL should be cached"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Product C",
+    "thumbnail": "https://example.com/not-an-image",
+    "alt": "https://example.com/missing.jpg"
+  },
+  {
+    "id": 4,
+    "name": "No image entry",
+    "description": "This record has no image-like URL."
+  },
+  {
+    "id": 5,
+    "title": "Nested media",
+    "assets": [
+      {
+        "type": "hero",
+        "url": "https://picsum.photos/id/1024/300/200.jpg"
+      },
+      {
+        "type": "icon",
+        "url": "https://example.com/icon-does-not-exist.webp"
+      }
+    ]
+  }
+]

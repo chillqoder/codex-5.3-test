@@ -1,0 +1,43 @@
+:root {
+  --bg-color: #f1f5f4;
+  --bg-noise: radial-gradient(circle at 2px 2px, rgba(14, 105, 108, 0.05) 1px, transparent 0);
+  --panel-bg: #ffffff;
+  --text-color: #142b2b;
+  --muted-text: #5f7574;
+  --border-color: #d5e4e2;
+  --accent: #0f9396;
+  --accent-dark: #0a7173;
+  --radius: 8px;
+  --shadow-soft: 0 10px 24px rgba(17, 48, 49, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--text-color);
+  background:
+    linear-gradient(180deg, #eef6f5 0%, #f7fbfa 35%, #eef4f3 100%),
+    var(--bg-color);
+  background-size: auto, 14px 14px;
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
